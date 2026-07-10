@@ -12,3 +12,7 @@ ln -s ~/shared/cache/PNC_FreeSurfer ~/cache/PNC_FreeSurfer
 
 # Install pixi.
 curl -fsSL https://pixi.sh/install.sh | PIXI_VERSION=v0.72.1 bash
+
+# Install jupyter-server-proxy
+pip install jupyter-server-proxy
+jupyter server extension enable jupyter_server_proxy --sys-prefix
