@@ -70,3 +70,4 @@ dependencies:
     - git+https://github.com/NeuroHackademy2026/rbclib@main
     - nipoppy
     - pytest
+    - fmralign
